@@ -8,8 +8,10 @@ Topological Sort C++ addon
 
 Topological Sort using Depth First Search(DFS)
 
+`npm install cxx-graph`
+
 ```
-var graph = require('./cxx-graph');
+var graph = require('cxx-graph');
 
 //           0
 //         /
