@@ -2,12 +2,30 @@
 
 Topological Sort C++ addon
 
+[![Build Status](https://travis-ci.org/Dongss/cxx-graph.svg?branch=master)](https://travis-ci.org/Dongss/cxx-graph)
+
 ## usage
 
 Topological Sort using Depth First Search(DFS)
 
 ```
-var graph = require('./index');
+var graph = require('./cxx-graph');
+
+//           0
+//         /
+//        1
+//       / \
+//      2   4 
+//     / \   \
+//    3   \   7
+//   / \ /    |
+//  8   5     |
+//   \   \    |
+//    \   6   |
+//     \  |  /
+//      \ | /  
+//       9
+      
 var e = [
     [0,1],
     [1,2],
